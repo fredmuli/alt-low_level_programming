@@ -2,6 +2,7 @@
 
 /**
  * print_diagonal : a function that draws a diagonal line on the terminal
+ * print \
  * @n: input integer
  * Return: Always 0
  */
@@ -14,7 +15,7 @@ void print_diagonal(int n)
 		for (; x < n; x++)
 		{
 			for (y = 0; y < 1; y++)
-				_putchar(' ');
+				_putchar(' \');
 			_putchar(92);
 			_putchar('\n');
 		}
